@@ -1,0 +1,495 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ViewProfile render component 1`] = `
+<ViewTemplate>
+  <div
+    className="register-wrap"
+    style={
+      Object {
+        "height": "1000px",
+      }
+    }
+  >
+    <br />
+    <br />
+    <br />
+    <br />
+    <h1
+      className="fontWhite"
+    >
+      Profile
+    </h1>
+    <div
+      className="Oms register-html"
+    >
+      <Form
+        className="MyForm register-form"
+        inline={false}
+      >
+        <FormGroup
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": Object {
+                "noGutters": false,
+              },
+              "render": [Function],
+            }
+          }
+          controlId="username"
+        >
+          <Col
+            className="alignLabel"
+            md={3}
+            sm={4}
+          >
+            <FormLabel
+              className="label Labelling"
+              column={false}
+              srOnly={false}
+            >
+              Username
+            </FormLabel>
+          </Col>
+          <Col
+            md={9}
+            sm={8}
+          >
+            <FormControl
+              defaultValue="test123"
+              name="username"
+              readOnly={true}
+              required={true}
+              type="text"
+            />
+          </Col>
+        </FormGroup>
+        <FormGroup
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": Object {
+                "noGutters": false,
+              },
+              "render": [Function],
+            }
+          }
+          controlId="role"
+        >
+          <Col
+            className="alignLabel"
+            md={3}
+            sm={4}
+          >
+            <FormLabel
+              className="label Labelling"
+              column={false}
+              srOnly={false}
+            >
+              Role
+            </FormLabel>
+          </Col>
+          <Col
+            md={9}
+            sm={8}
+          >
+            <FormControl
+              name="role"
+              readOnly={true}
+              required={true}
+              type="text"
+            />
+          </Col>
+        </FormGroup>
+        <FormGroup
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": Object {
+                "noGutters": false,
+              },
+              "render": [Function],
+            }
+          }
+          controlId="firstName"
+        >
+          <Col
+            className="alignLabel"
+            md={3}
+            sm={4}
+          >
+            <FormLabel
+              className="label Labelling"
+              column={false}
+              srOnly={false}
+            >
+              First Name
+            </FormLabel>
+          </Col>
+          <Col
+            md={9}
+            sm={8}
+          >
+            <FormControl
+              className="firstName"
+              defaultValue="test"
+              name="firstName"
+              readOnly={true}
+              required={true}
+              type="text"
+            />
+          </Col>
+        </FormGroup>
+        <FormGroup
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": Object {
+                "noGutters": false,
+              },
+              "render": [Function],
+            }
+          }
+          controlId="lastName"
+        >
+          <Col
+            className="alignLabel"
+            md={3}
+            sm={4}
+          >
+            <FormLabel
+              className="label Labelling"
+              column={false}
+              srOnly={false}
+            >
+              Last Name
+            </FormLabel>
+          </Col>
+          <Col
+            md={9}
+            sm={8}
+          >
+            <FormControl
+              className="lastName"
+              defaultValue="test"
+              name="lastName"
+              readOnly={true}
+              required={true}
+              type="text"
+            />
+          </Col>
+        </FormGroup>
+        <FormGroup
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": Object {
+                "noGutters": false,
+              },
+              "render": [Function],
+            }
+          }
+          controlId="dateOfBirth"
+        >
+          <Col
+            className="alignLabel"
+            md={3}
+            sm={4}
+          >
+            <FormLabel
+              className="label Labelling"
+              column={false}
+              srOnly={false}
+            >
+              Date of Birth
+            </FormLabel>
+          </Col>
+          <Col
+            md={9}
+            sm={8}
+          >
+            <FormControl
+              name="dateOfBirth"
+              readOnly={true}
+              required={true}
+              type="date"
+            />
+          </Col>
+        </FormGroup>
+        <FormGroup
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": Object {
+                "noGutters": false,
+              },
+              "render": [Function],
+            }
+          }
+          controlId="phone"
+        >
+          <Col
+            className="alignLabel"
+            md={3}
+            sm={4}
+          >
+            <FormLabel
+              className="label Labelling"
+              column={false}
+              srOnly={false}
+            >
+              Phone
+            </FormLabel>
+          </Col>
+          <Col
+            md={9}
+            sm={8}
+          >
+            <FormControl
+              className="phone"
+              defaultValue="1234567890"
+              name="phone"
+              readOnly={true}
+              required={true}
+              type="number"
+            />
+          </Col>
+        </FormGroup>
+        <FormGroup
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": Object {
+                "noGutters": false,
+              },
+              "render": [Function],
+            }
+          }
+          controlId="mail"
+        >
+          <Col
+            className="alignLabel"
+            md={3}
+            sm={4}
+          >
+            <FormLabel
+              className="label Labelling"
+              column={false}
+              srOnly={false}
+            >
+              Mail ID
+            </FormLabel>
+          </Col>
+          <Col
+            md={9}
+            sm={8}
+          >
+            <FormControl
+              className="mail"
+              defaultValue="test@test.com"
+              name="mail"
+              readOnly={true}
+              required={true}
+              type="email"
+            />
+          </Col>
+        </FormGroup>
+        <FormGroup
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": Object {
+                "noGutters": false,
+              },
+              "render": [Function],
+            }
+          }
+          controlId="addressLine1"
+        >
+          <Col
+            className="alignLabel"
+            md={3}
+            sm={4}
+          >
+            <FormLabel
+              className="label Labelling"
+              column={false}
+              srOnly={false}
+            >
+              Address Line 1
+            </FormLabel>
+          </Col>
+          <Col
+            md={9}
+            sm={8}
+          >
+            <FormControl
+              className="addressLine1"
+              defaultValue="test"
+              name="addressLine1"
+              readOnly={true}
+              required={true}
+              type="text"
+            />
+          </Col>
+        </FormGroup>
+        <FormGroup
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": Object {
+                "noGutters": false,
+              },
+              "render": [Function],
+            }
+          }
+          controlId="addressLine2"
+        >
+          <Col
+            className="alignLabel"
+            md={3}
+            sm={4}
+          >
+            <FormLabel
+              className="label Labelling"
+              column={false}
+              srOnly={false}
+            >
+              Address Line 2
+            </FormLabel>
+          </Col>
+          <Col
+            md={9}
+            sm={8}
+          >
+            <FormControl
+              className="addressLine2"
+              defaultValue="test"
+              name="addressLine2"
+              readOnly={true}
+              required={true}
+              type="text"
+            />
+          </Col>
+        </FormGroup>
+        <FormGroup
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": Object {
+                "noGutters": false,
+              },
+              "render": [Function],
+            }
+          }
+          controlId="state"
+        >
+          <Col
+            className="alignLabel"
+            md={3}
+            sm={4}
+          >
+            <FormLabel
+              className="label Labelling"
+              column={false}
+              srOnly={false}
+            >
+              State
+            </FormLabel>
+          </Col>
+          <Col
+            md={9}
+            sm={8}
+          >
+            <FormControl
+              className="state"
+              defaultValue="test"
+              name="state"
+              readOnly={true}
+              required={true}
+              type="text"
+            />
+          </Col>
+        </FormGroup>
+        <FormGroup
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": Object {
+                "noGutters": false,
+              },
+              "render": [Function],
+            }
+          }
+          controlId="country"
+        >
+          <Col
+            className="alignLabel"
+            md={3}
+            sm={4}
+          >
+            <FormLabel
+              className="label Labelling"
+              column={false}
+              srOnly={false}
+            >
+              Country
+            </FormLabel>
+          </Col>
+          <Col
+            md={9}
+            sm={8}
+          >
+            <FormControl
+              className="country"
+              defaultValue="test"
+              name="country"
+              readOnly={true}
+              required={true}
+              type="text"
+            />
+          </Col>
+        </FormGroup>
+        <FormGroup
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": Object {
+                "noGutters": false,
+              },
+              "render": [Function],
+            }
+          }
+          controlId="pincode"
+        >
+          <Col
+            className="alignLabel"
+            md={3}
+            sm={4}
+          >
+            <FormLabel
+              className="label Labelling"
+              column={false}
+              srOnly={false}
+            >
+              Pincode
+            </FormLabel>
+          </Col>
+          <Col
+            md={9}
+            sm={8}
+          >
+            <FormControl
+              className="pincode"
+              name="pincode"
+              readOnly={true}
+              required={true}
+              type="number"
+            />
+          </Col>
+        </FormGroup>
+      </Form>
+    </div>
+  </div>
+</ViewTemplate>
+`;

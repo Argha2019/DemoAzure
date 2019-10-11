@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Agent Search Component should render snapshot 1`] = `
+<MemoryRouter
+  initialEntries={
+    Array [
+      Object {
+        "key": "testKey",
+        "pathname": "/agentDetailsPage",
+      },
+    ]
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "testKey",
+            "pathname": "/agentDetailsPage",
+            "search": "",
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "testKey",
+          "pathname": "/agentDetailsPage",
+          "search": "",
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <withRouter(AgentListTemplate)>
+      <AgentListTemplate
+        history={
+          Object {
+            "action": "POP",
+            "block": [Function],
+            "canGo": [Function],
+            "createHref": [Function],
+            "entries": Array [
+              Object {
+                "hash": "",
+                "key": "testKey",
+                "pathname": "/agentDetailsPage",
+                "search": "",
+              },
+            ],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "index": 0,
+            "length": 1,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "key": "testKey",
+              "pathname": "/agentDetailsPage",
+              "search": "",
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+        }
+        location={
+          Object {
+            "hash": "",
+            "key": "testKey",
+            "pathname": "/agentDetailsPage",
+            "search": "",
+          }
+        }
+        match={
+          Object {
+            "isExact": false,
+            "params": Object {},
+            "path": "/",
+            "url": "/",
+          }
+        }
+      >
+        <div>
+          <h1>
+            Agent Search
+          </h1>
+          <br />
+          <div
+            className="Main-page"
+          >
+            <br />
+            <div
+              className="Search"
+            >
+              <Form
+                className="MySearchForm"
+                id="Form1"
+                inline={false}
+              >
+                <form
+                  className="MySearchForm"
+                  id="Form1"
+                >
+                  <ForwardRef
+                    className="form-row"
+                    noGutters={false}
+                  >
+                    <div
+                      className="form-row row"
+                    >
+                      <label
+                        className="col-sm-2 col-form-label fontWhite"
+                        for="agentId"
+                      >
+                        Agent Id
+                      </label>
+                      <div
+                        className="col-sm-10"
+                      >
+                        <input
+                          className="form-control id formInput"
+                          id="agentId"
+                          name="id"
+                          onChange={[Function]}
+                          placeholder="Enter the agent ID"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </ForwardRef>
+                  <br />
+                  <ForwardRef
+                    className="form-row"
+                    noGutters={false}
+                  >
+                    <div
+                      className="form-row row"
+                    >
+                      <label
+                        className="col-sm-2 col-form-label fontWhite"
+                        for="firstName"
+                      >
+                        First Name
+                      </label>
+                      <div
+                        className="col-sm-10"
+                      >
+                        <input
+                          className="form-control firstName formInput"
+                          id="firstName"
+                          name="firstName"
+                          onChange={[Function]}
+                          placeholder="Enter the first name"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </ForwardRef>
+                  <br />
+                  <ForwardRef
+                    className="form-row"
+                    noGutters={false}
+                  >
+                    <div
+                      className="form-row row"
+                    >
+                      <label
+                        className="col-sm-2 col-form-label fontWhite"
+                        for="lastName"
+                      >
+                        Last Name
+                      </label>
+                      <div
+                        className="col-sm-10"
+                      >
+                        <input
+                          className="form-control lastName formInput"
+                          id="lastName"
+                          name="lastName"
+                          onChange={[Function]}
+                          placeholder="Enter the last name"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </ForwardRef>
+                  <br />
+                  <ForwardRef
+                    className="form-row"
+                    noGutters={false}
+                  >
+                    <div
+                      className="form-row row"
+                    >
+                      <label
+                        className="col-sm-2 col-form-label fontWhite"
+                        for="email"
+                      >
+                        Email ID
+                      </label>
+                      <div
+                        className="col-sm-10"
+                      >
+                        <input
+                          className="form-control mail formInput"
+                          id="email"
+                          name="mail"
+                          onChange={[Function]}
+                          placeholder="Enter the mail id"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </ForwardRef>
+                  <br />
+                  <br />
+                  <div
+                    className="row"
+                  >
+                    <div
+                      className="col-sm-4 searchButtonDiv"
+                    >
+                      <button
+                        className="btn btn-primary btn-block active SearchButton"
+                        id="search"
+                        onClick={[Function]}
+                        type="submit"
+                      >
+                        Search
+                      </button>
+                    </div>
+                    <div
+                      className="col-sm-4"
+                    >
+                      <button
+                        className="btn btn-primary btn-block active SearchButton"
+                        id="reset"
+                        onClick={[Function]}
+                      >
+                        Reset
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </Form>
+            </div>
+          </div>
+          <br />
+          <br />
+        </div>
+      </AgentListTemplate>
+    </withRouter(AgentListTemplate)>
+  </Router>
+</MemoryRouter>
+`;

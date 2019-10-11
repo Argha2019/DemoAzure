@@ -1,0 +1,303 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Adjust Inventory Component should render snapshot 1`] = `
+<AgentTemplate>
+  <h1>
+    Adjust Inventory
+  </h1>
+  <div
+    className="container-fluid"
+  >
+    <ForwardRef
+      noGutters={false}
+    >
+      <Col>
+        <div
+          className="adjustInventory2 register-wrap"
+          style={
+            Object {
+              "height": "450px",
+              "width": "80%",
+            }
+          }
+        >
+          <div
+            className="register-html"
+          >
+            <h1
+              className="fontWhite"
+            >
+              Enter item details
+            </h1>
+            <br />
+            <Form
+              className="register-form"
+              id="firstform"
+              inline={false}
+              onSubmit={[Function]}
+            >
+              <FormGroup
+                as={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": Object {
+                      "noGutters": false,
+                    },
+                    "render": [Function],
+                  }
+                }
+                controlId="formHorizontalEmail"
+              >
+                <Col
+                  lg={4}
+                  md={4}
+                  sm={4}
+                >
+                  <FormLabel
+                    className="Labelling1 label"
+                    column={false}
+                    srOnly={false}
+                  >
+                    Product ID
+                  </FormLabel>
+                </Col>
+                <Col
+                  lg={8}
+                  md={8}
+                  sm={8}
+                >
+                  <FormControl
+                    className="productid"
+                    name="productid"
+                    onChange={[Function]}
+                    placeholder="Enter the product ID"
+                    required={true}
+                    type="text"
+                    value=""
+                  />
+                </Col>
+              </FormGroup>
+              <FormGroup
+                as={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": Object {
+                      "noGutters": false,
+                    },
+                    "render": [Function],
+                  }
+                }
+                controlId="exampleForm.ControlSelect1"
+                id="firstform"
+              >
+                <Col
+                  lg={4}
+                  md={4}
+                  sm={4}
+                >
+                  <FormLabel
+                    className="Labelling1 label"
+                    column={false}
+                    srOnly={false}
+                  >
+                    Supply type
+                  </FormLabel>
+                </Col>
+                <Col
+                  lg={8}
+                  md={8}
+                  sm={8}
+                >
+                  <FormControl
+                    as="select"
+                  >
+                    <option>
+                      Available to sell
+                    </option>
+                    <option>
+                      Not available to sell
+                    </option>
+                  </FormControl>
+                </Col>
+              </FormGroup>
+              <div
+                as={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "displayName": "Col",
+                    "render": [Function],
+                  }
+                }
+              >
+                <Button
+                  active={false}
+                  className="inventorySubmitButton"
+                  disabled={false}
+                  id="checkButton"
+                  type="submit"
+                  variant="primary"
+                >
+                  Search
+                </Button>
+              </div>
+            </Form>
+            <br />
+          </div>
+        </div>
+      </Col>
+      <Col>
+        <div
+          className="adjustInventory2 register-wrap"
+          style={
+            Object {
+              "height": "450px",
+              "width": "80%",
+            }
+          }
+        >
+          <div
+            className="register-html"
+          >
+            <h1
+              className="fontWhite"
+            >
+              Adjustments
+            </h1>
+            <Form
+              className="secondform register-form"
+              inline={false}
+              onSubmit={[Function]}
+            >
+              <div
+                className="fontWhite"
+              >
+                Available quantity:
+                 
+                <span />
+              </div>
+              <br />
+              <FormGroup
+                as={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": Object {
+                      "noGutters": false,
+                    },
+                    "render": [Function],
+                  }
+                }
+                controlId="exampleForm.ControlSelect1"
+              >
+                <Col
+                  lg={5}
+                  md={4}
+                  sm={4}
+                >
+                  <FormLabel
+                    className="Labelling1 label"
+                    column={false}
+                    srOnly={false}
+                  >
+                    Modify quantity
+                     
+                  </FormLabel>
+                </Col>
+                <Col
+                  lg={7}
+                  md={8}
+                  sm={8}
+                >
+                  <FormControl
+                    as="select"
+                    className="operation"
+                    disabled={true}
+                    name="operation"
+                    onChange={[Function]}
+                    value="Increase"
+                  >
+                    <option>
+                      Increase
+                    </option>
+                    <option>
+                      Decrease
+                    </option>
+                  </FormControl>
+                </Col>
+              </FormGroup>
+              <FormGroup
+                as={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": Object {
+                      "noGutters": false,
+                    },
+                    "render": [Function],
+                  }
+                }
+                controlId="formHorizontalQuantity"
+              >
+                <Col
+                  lg={5}
+                  md={4}
+                  sm={4}
+                >
+                  <FormLabel
+                    className="Labelling1 label"
+                    column={false}
+                    srOnly={false}
+                  >
+                    Amount
+                  </FormLabel>
+                </Col>
+                <Col
+                  lg={7}
+                  md={8}
+                  sm={8}
+                >
+                  <FormControl
+                    className="changeInQuantity"
+                    disabled={true}
+                    min="0"
+                    name="quantity"
+                    onChange={[Function]}
+                    placeholder=" "
+                    required={true}
+                    type="number"
+                    value=""
+                  />
+                </Col>
+              </FormGroup>
+              <div
+                as={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": Object {
+                      "noGutters": false,
+                    },
+                    "render": [Function],
+                  }
+                }
+              >
+                <Button
+                  active={false}
+                  className="inventorySubmitButton"
+                  disabled={true}
+                  type="submit"
+                  variant="primary"
+                >
+                  Adjust
+                </Button>
+              </div>
+              <span
+                className="successMessage"
+              >
+                 
+              </span>
+            </Form>
+          </div>
+        </div>
+      </Col>
+    </ForwardRef>
+  </div>
+</AgentTemplate>
+`;

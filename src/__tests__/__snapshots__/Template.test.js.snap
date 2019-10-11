@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Admin Template should render snapshot 1`] = `
+<div>
+  <br />
+  <p
+    align="center"
+  >
+    You must Login!!
+  </p>
+  <Button
+    active={false}
+    className="editButtonDiv"
+    disabled={false}
+    href="#/"
+    type="button"
+    variant="primary"
+  >
+    Sign In
+  </Button>
+</div>
+`;
+
+exports[`Agent Template should render snapshot 1`] = `
+<div>
+  <br />
+  <p
+    align="center"
+  >
+    You must Login!!
+  </p>
+  <Button
+    active={false}
+    className="editButtonDiv"
+    disabled={false}
+    href="#/"
+    type="button"
+    variant="primary"
+  >
+    Sign In
+  </Button>
+</div>
+`;
+
+exports[`Customer Template should render snapshot 1`] = `
+<div>
+  <br />
+  <p
+    align="center"
+  >
+    You must Login!!
+  </p>
+  <Button
+    active={false}
+    className="editButtonDiv"
+    disabled={false}
+    href="#/"
+    type="button"
+    variant="primary"
+  >
+    Sign In
+  </Button>
+</div>
+`;
+
+exports[`View Template should render snapshot 1`] = `
+<div>
+  <br />
+  <p
+    align="center"
+  >
+    You must Login!!
+  </p>
+  <Button
+    active={false}
+    className="editButtonDiv"
+    disabled={false}
+    href="#/"
+    type="button"
+    variant="primary"
+  >
+    Sign In
+  </Button>
+</div>
+`;

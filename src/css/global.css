@@ -1,0 +1,828 @@
+@media only screen and (min-width: 319px) {
+	.align-right-ref {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 100px;
+		max-height: 50px;
+	}
+	.Search {
+		text-align: center;
+		width: 100%;
+		margin: 3% auto;
+		margin-top: -30px;
+		border: 0.1px solid black;
+		position: relative;
+		border-radius: 0px;
+		padding: 20px;
+		border-style: groove;
+		background:rgba(40,57,101,.9);
+	}
+	.SearchButton {
+		border-radius:25px;
+	}
+	.formInput {
+		border-radius:25px;
+	}
+
+	.searchButtonDiv {
+		margin-bottom: 10%;
+	}
+
+	::placeholder {
+		font-size: 12px;
+	}
+	.modal-body {
+		position: relative;
+		-ms-flex: 1 1 auto;
+		flex: 1 1 auto;
+		padding: 0rem;
+	}
+
+	.modal-content {
+		background-color: #fefefe;
+		margin: 15% auto;
+		padding: 10px;
+		border: 1px solid #888;
+		width: 80%;
+	}
+
+	.agentSearchCard {
+		-ms-flex: 1 1 auto;
+		flex: 1 1 auto;
+		padding: 0rem;
+	}
+
+	.noFieldErrorMessage {
+		color: #d4ff00;
+		font-size: 0.85em;
+		margin-left: 0px;
+	}
+	h1 {
+		font-size: 27px;
+	}
+	.font {
+		font-size: 16px;
+		margin-top: 9px;
+	}
+	.footer {
+		font-size : 16px;
+	}
+	.searchHeader {
+		width : 1.8em;
+		height: 1.9em;
+	}
+/* for order create */
+	.RadioButton {
+		margin-left: 100px;
+	}
+
+	.form-check-label {
+		margin-bottom: 0;
+		padding-left: 20px;
+	}
+
+	.btn-primary {
+		background-color: #dee2e6 !important ;
+		color : #000 !important;
+		font-weight : 600 !important;
+	}
+
+	.btn.btn-primary:active {
+		background-color : #727981 !important;
+		color : #000 !important;
+		font-weight : 600 !important;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	body {
+		background-color: #dee2e6;
+	}
+	.Search {
+		text-align: center;
+		width: 100%;
+		margin: 3% auto;
+		margin-top: -30px;
+		border: 0.1px solid black;
+		position: relative;
+		border-radius: 0px;
+		padding: 20px;
+		border-style: groove;
+		background:rgba(40,57,101,.9);
+	}
+
+
+	.searchButtonDiv {
+		margin-left: 0% auto;
+		margin-bottom: 0%;
+	}
+	.noFieldErrorMessage {
+		color: #d4ff00;
+		font-size: 0.85em;
+		margin-left: 0px;
+	}
+
+	#reset {
+		margin-left: 0% auto;
+	}
+
+	::placeholder {
+		font-size: 12px;
+	}
+	.modal-dialog {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		pointer-events: none;
+	}
+	.agentSearchCard {
+		-ms-flex: 1 1 auto;
+		flex: 1 1 auto;
+		padding: 0.5rem;
+	}
+
+	.searchButton {
+		margin-top: 5px;
+		width: 38px;
+		height: 35px;
+	}
+	.nav {
+		margin-right: 500px;
+		text-align: right;
+	}
+	.font {
+		font-size: 18px;
+		margin-top: 9px;
+	}
+	.footer {
+		font-size : 18px;
+	}
+	h1 {
+		font-size: 27px;
+	}
+	.RadioButton {
+		margin-left: 200px;
+	}
+	.form-check-label {
+		margin-bottom: 0;
+		padding-left: 10px;
+	}
+	.searchHeader {
+		width : 2.5em;
+		height: 2.5em;
+	}
+
+	.btn-primary {
+		background-color: #dee2e6 !important ;
+		color : #000 !important;
+		font-weight : 600 !important;
+	}
+
+	.btn.btn-primary:active {
+		background-color : #727981 !important;
+		color : #000 !important;
+		font-weight : 600 !important;
+	}
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 767px) {
+	body {
+		background-color: #dee2e6;
+	}
+	.Search {
+		text-align: center;
+		width: 60%;
+		margin: 3% auto;
+		margin-top: -30px;
+		border: 0.1px solid black;
+		position: relative;
+		border-radius: 0px;
+		padding: 20px;
+		border-style: groove;
+		background:rgba(40,57,101,.9);
+	}
+
+	.searchButtonDiv {
+		margin-left: 20%;
+		margin-bottom: 0%;
+	}
+	.noFieldErrorMessage {
+		color: #d4ff00;
+		font-size: 1em;
+	}
+
+	#reset {
+		margin-left: 5%;
+	}
+	::placeholder {
+		font-size: 16px;
+	}
+
+	.modal-dialog {
+		position: relative;
+		width: 50%;
+		margin: auto;
+		pointer-events: none;
+	}
+	.agentSearchCard {
+		-ms-flex: 1 1 auto;
+		flex: 1 1 auto;
+		padding: 0.5rem;
+	}
+	.font {
+		font-size: 23px;
+		margin-top: 5px;
+	}
+
+	h1 {
+		font-size: 35px;
+	}
+	.RadioButton {
+		margin-left: 290px;
+	}
+
+	.btn-primary {
+		background-color: #dee2e6 !important ;
+		color : #000 !important;
+		font-weight : 600 !important;
+	}
+
+	.btn.btn-primary:active {
+		background-color : #727981 !important;
+		color : #000 !important;
+		font-weight : 600 !important;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	body {
+		background-color: #dee2e6;
+	}
+	.searchButtonDiv {
+		margin-left: 20%;
+		margin-bottom: 0%;
+	}
+	#reset {
+		margin-left: 5%;
+	}
+	::placeholder {
+		font-size: 16px;
+	}
+
+	.modal-dialog {
+		position: relative;
+		width: 50%;
+		margin: auto;
+		pointer-events: none;
+	}
+	.agentSearchCard {
+		-ms-flex: 1 1 auto;
+		flex: 1 1 auto;
+		padding: 0.5rem;
+	}
+
+	.noFieldErrorMessage {
+		color: #d4ff00;
+		font-size: 1em;
+		margin-left: 20px;
+	}
+	h1 {
+		font-size: 38px;
+	}
+
+	.RadioButton {
+		margin-left: 410px;
+	}
+
+	.btn-primary {
+		background-color: #dee2e6 !important ;
+		color : #000 !important;
+		font-weight : 600 !important;
+	}
+
+	.btn.btn-primary:active {
+		background-color : #727981 !important;
+		color : #000 !important;
+		font-weight : 600 !important;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	body {
+		font-family:"FuturaNextW05-Book","BlinkMacSystemFont","-apple-system","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
+		background-color : #dee2e6 ;
+	}
+	/*body {background: white;}*/
+	.searchButtonDiv {
+		margin-left: 20%;
+		margin-bottom: 0%;
+	}
+
+	#reset {
+		margin-left: 5%;
+	}
+
+	.noFieldErrorMessage {
+		color: #d4ff00;
+		font-size: 1em;
+		margin-left: 20px;
+	}
+	::placeholder {
+		font-size: 16px;
+	}
+	.btn-primary {
+		background-color: #dee2e6 !important ;
+		color : #000 !important;
+	}
+
+	.btn.btn-primary:active {
+		background-color : #727981 !important;
+		color : #000 !important;
+	}
+
+	.modal-dialog {
+		position: relative;
+		width: 50%;
+		margin: auto;
+		pointer-events: none;
+	}
+	.RadioButton {
+		margin-left: 500px;
+	}
+}
+
+@media (max-width: 880px) {
+	#x-content-band-2 .x-btn.x-btn-x-large {
+		font-size: 16px;
+	}
+}
+
+/* search */
+.agentImage {
+	width: 200px;
+	height: 200px;
+}
+
+input {
+	width: 80%;
+	/* border-radius: 4px; */
+}
+
+
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border: 1px solid #ddd;
+}
+
+th,
+td {
+	text-align: center;
+	padding: 8px;
+}
+
+.alert-dismissible {
+	padding-right: 2rem;
+}
+
+th {
+	background: white
+}
+tr {
+	background: white
+}
+tr:nth-child(even) {
+	background: white;
+}
+
+
+
+
+.MySearchForm {
+	width: 95%;
+	text-align: center;
+}
+
+/* Font style and Header */
+
+h1 {
+	color: #242222;
+	font-weight: 400;
+	margin-top: 72px;
+	text-align: center;
+	font-style: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+	color: black;
+	font-family: "FuturaNextW05-Book","BlinkMacSystemFont","-apple-system","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-style: normal;
+}
+
+h3 {
+	text-align: center;
+	font-size: 24px;
+	font-style: Arial, Helvetica, sans-serif;
+	margin-top: 0px;
+	color: #0f0f0f;
+	margin-bottom: 10%;
+}
+
+p {
+	color: black;
+	font-family: "FuturaNextW05-Book","BlinkMacSystemFont","-apple-system","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-variant: normal;
+}
+
+/*Button*/
+.button,
+input[type="submit"] {
+	background-color: white;
+	padding: 16px 32px;
+	text-align: center;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	color: black;
+	opacity: 1;
+	border: 2px solid #e7e7e7;
+}
+
+.default:hover {
+	background-color: #83878d;
+	opacity: 0.6;
+}
+
+.disabled {
+	opacity: 0.6;
+	cursor: not-allowed;
+}
+
+/*Footer*/
+.footer {
+	font-style: Arial, Helvetica, sans-serif;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	float: left;
+	font-size: 14px;
+}
+
+.social {
+	margin-left: 10px;
+	align-self: centre;
+}
+
+/*FORM */
+.simple-form input {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+input[type="submit"] {
+	width: 100%;
+	background-color: white;
+	color: black;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	cursor: pointer;
+}
+input[type="submit"]:hover {
+	background-color: #83878d;
+	opacity: 0.6;
+}
+
+.simple-form input:required {
+	border-color: palegreen;
+}
+.simple-form input:invalid {
+	border-color: salmon;
+}
+
+/*Modal for Product Details-Options*/
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* The Close Button */
+.close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+.Profile {
+	text-align: left;
+	width: 60%;
+	margin: 10% auto;
+	background-color: #ecf0f1;
+	border: 0.1px solid black;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 3px 3px 10px #333;
+	padding: 15px;
+	border-style: groove;
+}
+
+.nav {
+	margin-right: 0px;
+	text-align: right;
+}
+
+.RegisterButton {
+	width:100px;
+	border: none;
+	color: white;
+	font-size: 18px;
+	font-weight: 200;
+	cursor: pointer;
+	transition: box-shadow 0.4s ease;
+}
+
+.RegisterButton:hover {
+	background: grey;
+	box-shadow: 1px 1px 5px #555;
+}
+
+.RegisterButton:active {
+	box-shadow: 1px 1px 7px #222;
+}
+
+body {
+	background-color: #dee2e6 ;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.errorMessage {
+	color: #d4ff00;
+	font-size: 0.75em;
+	position: relative;
+}
+
+.successMessage {
+	color: #d4ff00 ;
+	font-size: 20px;
+	text-align : center;
+	padding : 5px 5px 5px 5px;
+}
+
+a {
+	font-weight: bold;
+}
+
+.Labelling {
+	margin: 5px;
+}
+
+.alignLabel {
+	text-align: left;
+}
+
+.home {
+	color: #00eeff;
+}
+.formbox {
+	border-bottom-right-radius: 10px;
+	width: 75%;
+	padding: 8px;
+	margin: 1.5% auto;
+	align-content: center;
+	box-shadow: 3px 3px 10px #333;
+}
+.try {
+	border-color: red;
+	width: 100%;
+	border-radius: px;
+	align-content: center;
+}
+.modal-footer {
+	color: black;
+	border-color: #19244d;
+	text-align: center;
+	font-size: 15px;
+	justify-content: center;
+}
+.headerfont {
+	font-style: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+.change {
+	width: 20%;
+	border: 2px solid red;
+}
+span {
+	font-family: "FuturaNextW05-Book","BlinkMacSystemFont","-apple-system","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
+	margin-left: 10px;
+	text-align : center;
+}
+
+.dropdown-menu {
+	top: 38px;
+	left: -200px;
+}
+
+.imgtry {
+	margin-left: -10px;
+}
+
+.adjustInventory {
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 3%;
+	margin-bottom: 0%;
+	padding-bottom: 8%;
+	text-align: left;
+	background-color: #ecf0f1;
+}
+
+.adjustInventory2 {
+	width: 90%;
+	height: 96%;
+	margin-top: 3%;
+	margin-left: 5%;
+	margin-bottom: 0%;
+	padding-bottom: 2%;
+	text-align: left;
+	background-color: #ecf0f1;
+}
+
+.card-title {
+	margin-bottom: 0.75rem;
+	text-align: left;
+}
+
+.inventorySubmitButton {
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-left: 33%;
+	margin-top: 7%;
+}
+
+label {
+	display: inline-block;
+	text-align: left;
+	margin-bottom: 0.5rem;
+}
+
+.Labelling1 {
+	display: inline-block;
+	width: 100px;
+	text-align: left;
+}
+.productTitle {
+	color: white;
+}
+
+.divModal {
+	width: 100%;
+}
+
+.modal-dialog {
+	width: 79%;
+}
+
+.buttonLeft {
+	text-align: left;
+}
+
+.searchErrorMessage {
+	color: #d4ff00;
+	font-size: 0.75em;
+	position: 0.2em;
+	text-align: left;
+	float: left;
+	margin: 0%;
+}
+.font {
+	font-style: Arial, Helvetica, sans-serif;
+	color: white;
+}
+.headerImage {
+	margin-left: -10px;
+	margin-top: -5px;
+}
+
+.rowAlign {
+	margin-right: -30px;
+}
+
+.tabs {
+	margin-top: 80px;
+	text-align: center;
+}
+
+.mandatoryFields {
+	font-size: 12px;
+	color: #f2ff37;
+}
+
+.bigErrorMessage {
+	color: #d4ff00;
+	font-size: 1em;
+	position: relative;
+}
+
+.bigSuccessMessage {
+	color: #d4ff00;
+	font-size: 1em;
+	position: relative;
+}
+
+.inputProduct{
+	letter-spacing: 2.5px;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+	color: black;
+	background: rgb(233, 233, 224);
+    height: 55px;
+    width: 100%;
+}
+.theme{
+	background-color: rgb(99, 99, 99 , .6);
+}
+
+.addProduct{
+	margin-right: 20px;
+}
+.searchHeader {
+	width : 1.5em;
+	height: 1.55em;
+}
+
+.ag-pivot-off .ag-header-cell-label {
+    font-weight: bold;
+}
+
+.editButtonDiv{
+		margin-left : 50%;
+		transform: translate(-50px, 0);
+}
+
+.editProfileDiv{
+		margin-left : 30%;
+}
+
+.noSearchError {
+	color: red;
+	font-size: 0.75em;
+	position: relative;
+}
+
+.loader{
+	margin-top:17%;
+	margin-left:45%;
+	width:100px;
+	height:100px;
+}
+.proceedButton{
+	background:rgba(40,57,101,.9) !important;
+	color:white !important;
+}
+
+.orderDetails {
+	text-align: center;
+}
+
+.shippedImage {
+	border: 2px solid rgba(40,57,101,.9);
+}

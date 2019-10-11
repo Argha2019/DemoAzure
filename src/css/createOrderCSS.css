@@ -1,0 +1,32 @@
+.cartTable{
+    border-radius: 10px;
+    width : 70%;
+    background:rgba(40,57,101,.9);
+
+}
+.orderTable{
+    width : 100%;
+
+}
+
+.addProduct1{
+
+    margin-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.wrapper2{
+    background:rgba(40,57,101,.9);
+    width:65%;
+    padding-left: 7%;
+}
+
+.ProceedButton{
+    width: 90%;
+    margin-left: -10%;
+    border:none;
+    padding:15px 20px;
+    border-radius:25px;
+    background:#1161ee;
+}

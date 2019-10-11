@@ -1,0 +1,83 @@
+
+@media only screen and (min-width: 600px) {
+
+  body {background: rgb(70, 121, 60);}
+
+
+}
+
+
+
+ 
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+
+  body {background: rgb(90, 90, 150);}
+
+
+
+}
+
+ 
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+
+  body {background: orange;}
+
+ 
+
+}
+
+ 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+
+  body {background: white;}
+
+}
+
+@media (max-width: 880px){
+#x-content-band-2 .x-btn.x-btn-x-large {
+font-size: 16px;
+}
+}
+
+input{
+  background-color:lightgrey;
+  width:50%;
+  border: 2px light blue;
+  border-radius: 4px;
+}
+
+
+
+
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+
+th { background:#E8F0FE }
+tr { background: #E8F0FE }
+tr:nth-child(odd) { background: white; }
+
+div{
+  text-align: center;
+}
+
