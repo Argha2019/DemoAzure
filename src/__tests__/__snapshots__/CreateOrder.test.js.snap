@@ -1,0 +1,244 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create Order Component should render snapshot 1`] = `
+<AgentTemplate>
+  <br />
+  <br />
+  <br />
+  <br />
+  <h1>
+    Oops...Your Cart is Empty
+  </h1>
+  <h1>
+    Shop Now
+  </h1>
+  }
+  <div>
+    <div
+      style={
+        Object {
+          "overflowX": "hidden",
+          "width": "100%",
+        }
+      }
+    >
+      <Card
+        body={false}
+        className="wrapper2"
+        style={
+          Object {
+            "color": "white",
+            "marginLeft": "22%",
+            "width": "53.3%",
+          }
+        }
+      >
+        <h6
+          style={
+            Object {
+              "alignContent": "left",
+            }
+          }
+        >
+          Type of user
+        </h6>
+        <ForwardRef
+          className="addProduct"
+          noGutters={false}
+        >
+          <Col
+            md={4}
+            sm={1}
+          >
+            <ForwardRef
+              noGutters={false}
+            >
+              <Col
+                md={4}
+                sm={1}
+              >
+                <FormCheck
+                  aria-label="radio 1"
+                  checked={false}
+                  disabled={false}
+                  inline={false}
+                  isInvalid={false}
+                  isValid={false}
+                  onChange={[Function]}
+                  title=""
+                  type="radio"
+                />
+              </Col>
+              <Col
+                md={8}
+                sm={1}
+              >
+                Customer
+              </Col>
+            </ForwardRef>
+          </Col>
+          <Col
+            md={4}
+            sm={1}
+          >
+            <ForwardRef
+              noGutters={false}
+            >
+              <Col
+                md={4}
+                sm={1}
+              >
+                <FormCheck
+                  aria-label="radio 1"
+                  checked={true}
+                  disabled={false}
+                  inline={false}
+                  isInvalid={false}
+                  isValid={false}
+                  onChange={[Function]}
+                  title=""
+                  type="radio"
+                />
+              </Col>
+              <Col
+                md={8}
+                sm={1}
+              >
+                Guest user
+              </Col>
+            </ForwardRef>
+          </Col>
+        </ForwardRef>
+      </Card>
+      <div
+        style={
+          Object {
+            "background": "#dee2e6",
+            "padding": "20px",
+            "width": "100%",
+          }
+        }
+      >
+        <div
+          className="container"
+          style={
+            Object {
+              "marginLeft": "20%",
+            }
+          }
+        >
+          <div
+            className="wrapper2"
+          >
+            <ForwardRef
+              className="addProduct1"
+              noGutters={false}
+            >
+              <div
+                className="addProduct"
+              >
+                <input
+                  aria-label="Enter the Product ID"
+                  className="inputProduct"
+                  id="inputProduct"
+                  name="name1"
+                  onChange={[Function]}
+                  placeholder="product ID"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                style={
+                  Object {
+                    "marginRight": "20px",
+                  }
+                }
+              >
+                <Button
+                  active={false}
+                  className="registerButton"
+                  disabled={false}
+                  id="handle"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "width": "100px",
+                    }
+                  }
+                  type="button"
+                  variant="primary"
+                >
+                  Add
+                </Button>
+              </div>
+              <div>
+                <Button
+                  active={false}
+                  className="registerButton"
+                  disabled={false}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "width": "100px",
+                    }
+                  }
+                  type="button"
+                  variant="primary"
+                >
+                  Explore
+                </Button>
+              </div>
+            </ForwardRef>
+          </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <div
+            className="container"
+          >
+            <h4>
+               Order total: ₹
+              0
+               
+            </h4>
+          </div>
+          <br />
+          <br />
+          <section>
+            <div
+              className="container"
+              style={
+                Object {
+                  "marginLeft": "25%",
+                }
+              }
+            >
+              <Button
+                active={false}
+                className="registerButton proceedButton"
+                disabled="Shop Now"
+                id="nextButton"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": "200px",
+                  }
+                }
+                type="button"
+                variant="primary"
+              >
+                Proceed to Buy
+              </Button>
+            </div>
+          </section>
+        </div>
+        <div />
+      </div>
+    </div>
+  </div>
+  <br />
+  <br />
+</AgentTemplate>
+`;

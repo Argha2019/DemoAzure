@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`My Orders Component should render snapshot 1`] = `
+<AgentTemplate>
+  <h1>
+    Order Details
+  </h1>
+  <div
+    className="container-fluid"
+  >
+    <div
+      style={
+        Object {
+          "margin": "5%",
+        }
+      }
+    >
+      <div
+        className="ag-theme-blue"
+        style={
+          Object {
+            "height": "450px",
+            "width": "100%",
+          }
+        }
+      >
+        <AgGridReact
+          columnDefs={
+            Array [
+              Object {
+                "field": "orderId",
+                "filter": true,
+                "headerName": "ID",
+                "pinned": "left",
+                "resizable": true,
+                "sortable": true,
+              },
+              Object {
+                "field": "orderPlacedDate",
+                "filter": true,
+                "headerName": "Placed Date",
+                "resizable": true,
+                "sortable": true,
+              },
+              Object {
+                "field": "orderAmount",
+                "filter": true,
+                "headerName": "Amount",
+                "resizable": true,
+                "sortable": true,
+              },
+              Object {
+                "field": "orderStatus",
+                "filter": true,
+                "headerName": "Status",
+                "resizable": true,
+                "sortable": true,
+              },
+              Object {
+                "field": "orderId",
+                "filter": true,
+                "headerName": "Order ID",
+                "pinned": "left",
+                "resizable": true,
+                "sortable": true,
+              },
+              Object {
+                "field": "orderPlacedDate",
+                "filter": true,
+                "headerName": "Placed Date",
+                "resizable": true,
+                "sortable": true,
+              },
+              Object {
+                "field": "orderAmount",
+                "filter": true,
+                "headerName": "Amount",
+                "resizable": true,
+                "sortable": true,
+              },
+              Object {
+                "field": "orderStatus",
+                "filter": true,
+                "headerName": "Status",
+                "resizable": true,
+                "sortable": true,
+              },
+              Object {
+                "field": "customerId",
+                "filter": true,
+                "headerName": "Customer ID",
+                "resizable": true,
+                "sortable": true,
+              },
+              Object {
+                "field": "orderDispatchDate",
+                "filter": true,
+                "headerName": "Dispatch Date",
+                "resizable": true,
+                "sortable": true,
+              },
+              Object {
+                "field": "orderDeliveryDate",
+                "filter": true,
+                "headerName": "Delivery Date",
+                "resizable": true,
+                "sortable": true,
+              },
+              Object {
+                "field": "paymentMethod",
+                "filter": true,
+                "headerName": "Payment method",
+                "resizable": true,
+                "sortable": true,
+              },
+              Object {
+                "field": "address",
+                "filter": true,
+                "headerName": "Address",
+                "resizable": true,
+              },
+            ]
+          }
+          onGridReady={[Function]}
+          onSelectionChanged={[Function]}
+          pagination={true}
+          paginationAutoPageSize={true}
+          rowData={Array []}
+          rowSelection="single"
+        />
+      </div>
+    </div>
+  </div>
+</AgentTemplate>
+`;

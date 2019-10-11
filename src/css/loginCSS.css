@@ -1,0 +1,303 @@
+@media only screen and (min-width: 359px) {
+.loginImage{
+	display: none;
+}
+.login-wrap{
+	width:100%;
+	background:url(https://psi-oms-product-image-repo.s3.us-east-2.amazonaws.com/login.jfif) no-repeat center;
+	min-height:800px;
+    position:relative;  
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+.login-html{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:90px 70px 50px 70px;
+	background:rgba(40,57,101,.9);
+}
+.registerButton{
+	width:100%;
+	letter-spacing: 2.5px;
+    border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:#1161ee;
+}
+
+.fontWhite{
+    color:white;
+}
+.login-form{
+	min-height:300px;
+	position:relative;
+	perspective:1000px;
+	transform-style:preserve-3d;
+}
+.login-form .group{
+	margin-bottom:15px;
+}
+.login-form .label,
+.login-form .input{
+	letter-spacing: 2px;
+    width:100%;
+	color:black;
+	display:block;
+}
+.login-form .button{
+	letter-spacing: 2px;
+    width:100%;
+	color:white;
+	display:block;
+}
+.login-form .input{
+	letter-spacing: 2.5px;
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(255,255,255,.7);
+	
+}
+.login-form input[data-type="password"]{
+	-webkit-text-security:circle;
+}
+.login-form .label{
+	letter-spacing: 2.5px;
+	color:white;
+	font-size:16px;
+}
+.login-form .button{
+	letter-spacing: 2.5px;
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:#1161ee;
+}
+.login-form label .icon{
+	width:15px;
+	height:15px;
+	border-radius:2px;
+	position:relative;
+	display:inline-block;
+	background:rgba(255,255,255,.1);
+}
+.login-form label .icon:before,
+.login-form label .icon:after{
+	content:'';
+	width:10px;
+	height:2px;
+	background:rgb(255, 255, 255);
+	position:absolute;
+	transition:all .2s ease-in-out 0s;
+}
+.login-form label .icon:before{
+	left:2.5px;
+	width:5px;
+	bottom:6px;
+	transform:scale(0) rotate(0);
+}
+.login-form  label .icon:after{
+	top:6px;
+	right:0;
+	transform:scale(0) rotate(0);
+}
+h1 {
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.phoneView{
+	float:none;
+	width:100%;
+	height:650px;
+}
+}
+
+
+@media only screen and (min-width: 700px) {
+.loginImage{
+	display: inline;
+}
+
+body{
+	margin:0;
+	color:black;
+	background-color : #dee2e6 ;
+	font:600 16px/18px "FuturaNextW05-Book","BlinkMacSystemFont","-apple-system","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+*,:after,:before{box-sizing:border-box}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+a{color:inherit;text-decoration:none}
+
+.login-wrap{
+	width:30%;
+	float: right;
+	background:url() no-repeat center;
+	height:750px;
+    position:relative; 
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+.login-html{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:90px 70px 50px 70px;
+	background:rgba(40,57,101,.9);
+}
+.login-html .sign-in-htm,
+.login-html .sign-up-htm{
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	position:absolute;
+	transform:rotateY(180deg);
+	backface-visibility:hidden;
+	transition:all .4s linear;
+}
+.login-html .sign-in,
+.login-html .sign-up,
+.login-form .check{
+	display:none;
+}
+
+.login-html .sign-in:checked + .tab,
+.login-html .sign-up:checked + .tab{
+	color:#fff;
+	border-color:#1161ee;
+}
+.login-form{
+	min-height:300px;
+	position:relative;
+	perspective:1000px;
+	transform-style:preserve-3d;
+}
+.login-form .group{
+	margin-bottom:15px;
+}
+.login-form .label,
+.login-form .input
+{
+	letter-spacing: 2.5px;
+    width:100%;
+	color:black;
+	display:block;
+}
+.login-form .button{
+	letter-spacing: 2.5px;
+    width:100%;
+	color:white;
+	display:block;
+	padding:15px 20px;
+	border-radius:25px;
+	background:#1161ee;
+}
+
+.login-form .input{
+	letter-spacing: 2.5px;
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(255,255,255,.7);
+	color: black;
+}
+.login-form input[data-type="password"]{
+	-webkit-text-security:circle;
+}
+.login-form .label{
+	letter-spacing: 2.5px;
+	color:white;
+	font-size:16px;
+}
+.login-form .button{
+	letter-spacing: 2.5px;
+	background:#1161ee;
+	color:white;
+}
+.login-form label .icon{
+	width:15px;
+	height:15px;
+	border-radius:2px;
+	position:relative;
+	display:inline-block;
+	background:rgba(255,255,255,.1);
+}
+.login-form label .icon:before,
+.login-form label .icon:after{
+	content:'';
+	width:10px;
+	height:2px;
+	background:rgb(255, 255, 255);
+	position:absolute;
+	transition:all .2s ease-in-out 0s;
+}
+.login-form label .icon:before{
+	left:2.5px;
+	width:5px;
+	bottom:6px;
+	transform:scale(0) rotate(0);
+}
+.login-form  label .icon:after{
+	top:6px;
+	right:0;
+	transform:scale(0) rotate(0);
+}
+.login-form .check:checked + label{
+	color:#fff;
+}
+.login-form .check:checked + label .icon{
+	background:#1161ee;
+}
+.login-form .check:checked + label .icon:before{
+	transform:scale(1) rotate(45deg);
+}
+.login-form .check:checked + label .icon:after{
+	transform:scale(1) rotate(-45deg);
+}
+.login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm{
+	transform:rotate(0);
+}
+.login-html .sign-up:checked + .tab + .login-form .sign-up-htm{
+	transform:rotate(0);
+}
+
+.hr{
+	height:2px;
+	margin:60px 0 50px 0;
+	background:rgba(255,255,255,.2);
+}
+.foot-lnk{
+	text-align:center;
+}
+
+.registerButton{
+	letter-spacing: 2px;
+	margin-left: auto;
+    border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:#1161ee;
+	color:white;
+}
+
+.fontWhite{
+    color:white;
+}
+
+h1 {
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.phoneView{
+	float:left;
+	width:75%;
+	height:1000px;
+}
+
+}

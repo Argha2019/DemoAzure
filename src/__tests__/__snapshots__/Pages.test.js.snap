@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Agent Admin Component should render snapshot of Admin page 1`] = `
+<AdminTemplate>
+  <Tabs
+    className="tabs"
+    defaultFocus={false}
+    defaultIndex={null}
+    forceRenderTabPanel={false}
+    selectedIndex={null}
+  >
+    <TabList
+      className="react-tabs__tab-list"
+    >
+      <Tab
+        className="react-tabs__tab"
+        disabledClassName="react-tabs__tab--disabled"
+        focus={false}
+        id={null}
+        panelId={null}
+        selected={false}
+        selectedClassName="react-tabs__tab--selected"
+      >
+        Agent Search
+      </Tab>
+      <Tab
+        className="react-tabs__tab"
+        disabledClassName="react-tabs__tab--disabled"
+        focus={false}
+        id={null}
+        panelId={null}
+        selected={false}
+        selectedClassName="react-tabs__tab--selected"
+      >
+        Customer Search
+      </Tab>
+    </TabList>
+    <TabPanel
+      className="react-tabs__tab-panel"
+      forceRender={false}
+      selectedClassName="react-tabs__tab-panel--selected"
+    >
+      <withRouter(AgentListTemplate) />
+    </TabPanel>
+    <TabPanel
+      className="react-tabs__tab-panel"
+      forceRender={false}
+      selectedClassName="react-tabs__tab-panel--selected"
+    >
+      <CustomerListTemplate />
+    </TabPanel>
+  </Tabs>
+</AdminTemplate>
+`;
+
+exports[`Agent Admin Component should render snapshot of Agent page 1`] = `
+<AgentTemplate>
+  <Tabs
+    className="tabs"
+    defaultFocus={false}
+    defaultIndex={null}
+    forceRenderTabPanel={false}
+    selectedIndex={null}
+  >
+    <TabList
+      className="react-tabs__tab-list"
+    >
+      <Tab
+        className="react-tabs__tab"
+        disabledClassName="react-tabs__tab--disabled"
+        focus={false}
+        id={null}
+        panelId={null}
+        selected={false}
+        selectedClassName="react-tabs__tab--selected"
+      >
+        Agent Search
+      </Tab>
+      <Tab
+        className="react-tabs__tab"
+        disabledClassName="react-tabs__tab--disabled"
+        focus={false}
+        id={null}
+        panelId={null}
+        selected={false}
+        selectedClassName="react-tabs__tab--selected"
+      >
+        Customer Search
+      </Tab>
+    </TabList>
+    <TabPanel
+      className="react-tabs__tab-panel"
+      forceRender={false}
+      selectedClassName="react-tabs__tab-panel--selected"
+    >
+      <withRouter(AgentListTemplate) />
+    </TabPanel>
+    <TabPanel
+      className="react-tabs__tab-panel"
+      forceRender={false}
+      selectedClassName="react-tabs__tab-panel--selected"
+    >
+      <CustomerListTemplate />
+    </TabPanel>
+  </Tabs>
+</AgentTemplate>
+`;
+
+exports[`Agent Admin Component should render snapshot of Customer page 1`] = `
+<CustomerTemplate>
+  <CustomerProfile />
+</CustomerTemplate>
+`;
+
+exports[`Agent Admin Component should render snapshot of View page 1`] = `
+<ViewTemplate>
+  <ViewProfile />
+</ViewTemplate>
+`;

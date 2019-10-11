@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OMSForm Testing Rendering Snapshot 1`] = `
+<HomePageTemplate
+  className=""
+>
+  <div>
+    <img
+      alt="e-commerce image"
+      className="loginImage"
+      height="800px"
+      src="https://psi-oms-product-image-repo.s3.us-east-2.amazonaws.com/omslogin.png"
+      width="70%"
+    />
+    <div
+      align="center"
+      className="login-wrap"
+    >
+      <div
+        className="login-html"
+      >
+        <h1
+          className="fontWhite"
+        >
+          Login
+        </h1>
+        <Form
+          className="login-form MyForm"
+          inline={false}
+          onSubmit={[Function]}
+        >
+          <FormGroup
+            as={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": Object {
+                  "noGutters": false,
+                },
+                "render": [Function],
+              }
+            }
+            controlId="username"
+          >
+            <FormLabel
+              className="label Labelling"
+              column={false}
+              srOnly={false}
+            >
+              Username
+            </FormLabel>
+            <FormControl
+              className="input"
+              name="username"
+              onChange={[Function]}
+              placeholder="Username"
+              required={true}
+              type="text"
+            />
+          </FormGroup>
+          <FormGroup
+            as={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": Object {
+                  "noGutters": false,
+                },
+                "render": [Function],
+              }
+            }
+            controlId="password"
+          >
+            <FormLabel
+              className="label Labelling"
+              column={false}
+              srOnly={false}
+            >
+              Password
+            </FormLabel>
+            <FormControl
+              className="input"
+              name="password"
+              onChange={[Function]}
+              placeholder="password"
+              required={true}
+              type="password"
+            />
+          </FormGroup>
+          <br />
+          <Button
+            active={false}
+            className="button"
+            disabled={false}
+            type="submit"
+            variant="primary"
+          >
+            Sign In
+          </Button>
+        </Form>
+        <p
+          className="fontWhite"
+        >
+          New User? 
+        </p>
+        <Button
+          active={false}
+          className="registerButton"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+          variant="primary"
+        >
+          Register
+        </Button>
+      </div>
+    </div>
+  </div>
+</HomePageTemplate>
+`;

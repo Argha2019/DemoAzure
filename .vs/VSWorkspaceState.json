@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\pages",
+    "\\src\\components\\templates",
+    "\\src\\components\\templates\\CustomerTemplate",
+    "\\src\\components\\templates\\DemoTemplate",
+    "\\src\\components\\templates\\HomePageTemplate",
+    "\\src\\components\\templates\\RegistrationTemplate",
+    "\\src\\css"
+  ],
+  "SelectedNode": "\\Jenkinsfile",
+  "PreviewInSolutionExplorer": false
+}

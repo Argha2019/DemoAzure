@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonGroup it renders three buttons with the first one active 1`] = `
+<div>
+  <Button
+    active={false}
+    disabled={false}
+    type="submit"
+    variant="primary"
+  >
+    Option 1
+  </Button>
+  <Button
+    active={false}
+    disabled={false}
+    type="submit"
+    variant="primary"
+  >
+    Option 2
+  </Button>
+  <Button
+    active={false}
+    disabled={false}
+    type="submit"
+    variant="primary"
+  >
+    Option 3
+  </Button>
+</div>
+`;
