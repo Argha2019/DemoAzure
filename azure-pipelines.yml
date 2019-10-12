@@ -21,11 +21,11 @@ stages:
     displayName: 'node_module_installation'
     pool:
       vmImage: 'ubuntu-latest'
-  - task: NodeTool@0
+    steps:
+	- task: NodeTool@0
     inputs:
       versionSpec: '10.x'
     displayName: 'Install Node.js'
-    steps:
     - script: npm install
       displayName: 'node_module_installation'
 
