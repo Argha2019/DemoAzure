@@ -8,10 +8,10 @@ variables:
   BuildConfiguration: 'release'
 
 stages:
-- stage: nodejs
-  displayName: 'Node Installation'
+- stage: nodejs installation
+  displayName: 'NodeJS Installation'
   jobs:
-  - job: hello
+  - job: node installation
     displayName: 'Node Installation'
     pool:
       vmImage: 'ubuntu-latest'
@@ -21,6 +21,19 @@ stages:
         versionSpec: '10.x'
       displayName: 'Install Node.js'
 
+    - script: |
+         npm install
+         npm run build
+      displayName: 'npm install and build'
+	  
+- stage: node modules installation
+  displayName: 'Node Modules Installation'
+  jobs:
+  - job: installing modules
+    displayName: 'installing modules'
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
     - script: |
          npm install
          npm run build
