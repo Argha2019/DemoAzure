@@ -25,7 +25,6 @@ stages:
          npm install
          npm run build
       displayName: 'npm install and build'
-	  
 - stage: node modules installation
   displayName: 'Node Modules Installation'
   jobs:
