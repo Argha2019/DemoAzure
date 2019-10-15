@@ -9,13 +9,18 @@ variables:
   BuildConfiguration: 'release'
 
 stages:
-- stage: provision_to_feature_env
-  displayName: 'Provision resources to feature environment'
+- stage: Node Installation
+  displayName: 'Node Installation'
   jobs:
-  - job: feature_provisioning
-    displayName: 'Feature env provisioning job'
+  - job: Node Installation
+    displayName: 'Node Installation'
     pool:
       vmImage: 'ubuntu-latest'
+	steps:
+    - task: NodeTool@0
+	  inputs:
+		versionSpec: '10.x'
+	  displayName: 'Install Node.js'
     steps:
     - script: echo provisioning to feature environment
       displayName: 'Feature environment provisioning'
