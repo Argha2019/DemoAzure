@@ -37,6 +37,17 @@ stages:
          npm install
          npm run build
       displayName: 'npm install and build'
+- stage: npm_test
+  displayName: 'Testing React Application'
+  jobs:
+  - job: npm_test
+    displayName: 'npm test'
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - script: |
+         npm test --u
+      displayName: 'npm test'
 
 
 
