@@ -1,28 +1,16 @@
-
 trigger:
-  branches:
-    include:
-    - '*'
+- master
 
-variables:
-  BuildPlatform: 'any cpu'
-  BuildConfiguration: 'release'
+pool:
+  vmImage: 'ubuntu-latest'
 
-stages:
-- stage: Node Installation
-  displayName: 'Node Installation'
-  jobs:
-  - job: Node Installation
-    displayName: 'Node Installation'
-    pool:
-      vmImage: 'ubuntu-latest'
-    steps:
-    - task: NodeTool@0
-	  inputs:
-		versionSpec: '10.x'
-	  displayName: 'Install Node.js'
+steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '10.x'
+  displayName: 'Install Node.js'
 
-    - script: |
-		npm install
-		npm run build
-	  displayName: 'npm install and build'
+- script: |
+    npm install
+    npm run build
+  displayName: 'npm install and build'
