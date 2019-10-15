@@ -11,7 +11,7 @@ stages:
 - stage: nodejs
   displayName: 'Node Installation'
   jobs:
-  - job: npm installation and build
+  - job: hello
     displayName: 'Node Installation'
     pool:
       vmImage: 'ubuntu-latest'
