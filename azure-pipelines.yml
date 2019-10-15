@@ -21,6 +21,5 @@ stages:
 	  inputs:
 		versionSpec: '10.x'
 	  displayName: 'Install Node.js'
-    steps:
     - script: echo provisioning to feature environment
       displayName: 'Feature environment provisioning'
