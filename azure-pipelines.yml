@@ -8,10 +8,10 @@ variables:
   BuildConfiguration: 'release'
 
 stages:
-- stage: Node Installation
+- stage: node module installation
   displayName: 'Node Installation'
   jobs:
-  - job: Node Installation
+  - job: npm installation and build
     displayName: 'Node Installation'
     pool:
       vmImage: 'ubuntu-latest'
