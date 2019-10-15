@@ -11,7 +11,7 @@ stages:
 - stage: nodejs installation
   displayName: 'NodeJS Installation'
   jobs:
-  - job: node installation
+  - job: node_installation
     displayName: 'Node Installation'
     pool:
       vmImage: 'ubuntu-latest'
@@ -28,7 +28,7 @@ stages:
 - stage: node modules installation
   displayName: 'Node Modules Installation'
   jobs:
-  - job: installing modules
+  - job: install_modules
     displayName: 'installing modules'
     pool:
       vmImage: 'ubuntu-latest'
